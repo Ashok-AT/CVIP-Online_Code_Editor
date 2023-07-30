@@ -1,0 +1,55 @@
+<meta charset='utf-8'><meta http-equiv='X-UA-Compatible' content='IE=edge'>
+<title></title>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<link href="index.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="img/favi.png" rel="shortcut icon" type="image/x-icon" />
+<div class="container">
+<div class="header">
+<div class="headlogo">&lt;</div>
+
+<div class="heading">
+<div class="top">
+<h2>Online Code Editor</h2>
+</div>
+
+<div class="top">
+<h4>HTML | CSS | JavaScript</h4>
+</div>
+</div>
+
+<div class="headlogo">/&gt;</div>
+</div>
+
+<div class="main">
+<div class="left">
+<div class="labelbox"><label id="html"><img alt="" src="img/html.png" />HTML</label></div>
+
+<div class="labelbox2"><label id="html"><input id="df1" placeholder="File name" /><br />
+<br />
+<button id="d1"><img alt="" class="down" src="img/download.png" /></button></label></div>
+<textarea class="textbox" id="htmlCode"></textarea>
+
+<div class="labelbox"><label><img alt="" src="img/css.png" />CSS</label></div>
+
+<div class="labelbox2"><label><input id="df2" placeholder="File name" /><br />
+<br />
+<button id="d2"><img alt="" class="down" src="img/download.png" /></button></label></div>
+<textarea class="textbox" id="cssCode"></textarea>
+
+<div class="labelbox"><label><img alt="" src="img/js.png" />JavaScript</label></div>
+
+<div class="labelbox2"><label><input id="df3" placeholder="File name" /><br />
+<br />
+<button id="d3"><img alt="" class="down" src="img/download.png" /></button></label></div>
+<textarea class="textbox" id="jsCode"></textarea></div>
+
+<div class="right">
+<div class="labelbox"><label id="out"><img alt="" src="img/out.png" />Output</label></div>
+
+<div class="btn"><label id="out"><button id="run" onclick="run()"><img alt="" id="runimg" src="img/run.png" /></button><button id="btn" onclick="goFullscreen('output'); return false"><img alt="" class="down" src="img/full.png" /></button></label></div>
+<iframe id="output"></iframe></div>
+</div>
+
+<div class="footer">Developed by <a href="https://www.linkedin.com/in/ashok-at-93b467211" target="_blank">&nbsp;Ashok AT</a></div>
+</div>
+<script src='index.js'></script>
